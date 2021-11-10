@@ -1,0 +1,66 @@
+Document type:
+Every document needs a doc type tag and container 
+<!DOCTYPE html>
+<html>
+REST OF CODE
+</html>
+
+Head and Body:
+Head and Body are used to add another layer of organization to your document. <head></head> is used for metadata and <body></body> is used for content displayed to used.
+Metadata elements, such as link, meta, title, and style, typically go inside the head element.
+
+Division element:
+<div> </div> is a general purpose container
+
+Header Tags:
+  <h1> </h1> .... <h6> </h6>
+
+Paragraph Tags:
+  <p> </p>
+
+Comments:
+  <!--  -->
+
+HTML5 tags aka. more descripitive:
+  <main> </main>, <header> </header>, <footer> </footer>, <nav> </nav>, <video> </nav>, <article> </article>, <section> </section>
+
+Images:
+  <img src="linklinklinklink" alt="description.">
+   Can be placed inside of anchors to become a link
+   Note: If the image is purely decorative, using an empty alt attribute is a best practice.
+
+Anchor aka url links:
+  <a href="linklinklink">description</a>
+  # creates dead links or internal anchor
+  new tab: target="_blank" 
+  internal link: <a href="#contacts-header">Contacts</a> ... <h2 id="contacts-header">Contacts</h2>
+  Can be placed inside of paragraph tags where description becomes the link
+
+Unorder lists aka bullet points:
+  <ul> or <ol>
+    <li>item</li>
+  </ul> or </ol>
+
+User input/web form:
+  add <form action="/url-where-you-want-to-submit-form-data"> </form> when you want to submit data
+    <input type="text" placeholder="this is placeholder text" required> add "required" at end to make it not submit unless filled out
+  adds button for forms <button type="submit">this button submits the form</button>
+
+Radio Buttons and Checkboxes:
+  <label for="indoor"><input id="indoor" value="indoor" type="radio or checkbox" name="indoor-outdoor">Indoor</label>
+  <label for="outdoor"><input id="outdoor" value="outdoor" type="radio or checkbox" name="indoor-outdoor">Outdoor</label>
+  Default value for submitting checkbeckes and buttons is on. 
+  Goes inside of the <form> </form>
+  Best practices is to have for attribute matching id of input. button option comes at end.
+  Add Checked inisde unput element to be checked by default
+
+
+
+
+
+
+
+
+
+
+    
