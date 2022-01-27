@@ -1,0 +1,120 @@
+Change Color of element: <h2 style="color: anycolor;">CatPhotoApp</h2>
+
+Use Css Selectors to style elements:
+<style>
+  h2 {
+    color: red;
+  }
+</style>
+
+Use CSS class to style an element:
+<style>
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h2 class="blue-text">CatPhotoApp</h2>
+
+Change the Font Size of an Element:
+h1 {
+  font-size: 30px;
+}
+
+Set Font Family: 
+h2 {
+  font-family: sans-serif;
+}
+
+Import Google Font;
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+Specify How Fonts Should Degrade:
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+Size Your Images:
+<style>
+  .larger-image {
+    width: 500px;
+  }
+</style>
+<a href="#"><img class="smaller-image" src="url" alt="A cute orange cat lying on its back."></a>
+
+Add Borders Around Your Elements:
+ <style>
+  .thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+  }
+</style>
+
+NOTE ABOUT ON LINE CLASS STYLE:
+KEEP ALL CLASSES IN ONE CLOSED QUOTE
+
+Add Rounded Corners with border-radius:
+border-radius: 10px;
+
+Make Circular Images with a border-radius:
+border-radius: 50%;
+
+Give a Background Color to a div Element:
+.green-background {
+  background-color: green;
+}
+<div class="silver-background">
+
+Set the id of an Element:
+<h2 id="cat-photo-form">
+
+Use an id Attribute to Style an Element:
+#cat-photo-form {
+  background-color: green;
+}
+
+Adjust the Padding of an Element:
+padding: 20px;
+
+Adjust the Margin of an Element:
+ margin: 20px;
+
+Add a Negative Margin to an Element:
+margin: -15px;
+
+Add Different Padding to Each Side of an Element:
+padding-top: 40px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 40px;
+
+Add Different Margins to Each Side of an Element:
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  
+Use Clockwise Notation to Specify the Padding of an Element:
+padding: 10px 20px 10px 20px;
+
+Use Clockwise Notation to Specify the Margin of an Element
+margin: 40px 20px 20px 40px;
+
+Use Attribute Selectors to Style Elements:
+[type='radio'] {
+  margin: 20px 0px 20px 0px;
+}
+
+Understand Absolute versus Relative Units:
+padding: 1.5em
+
+
+
+  
+
+
+ 
+
+
+
+
