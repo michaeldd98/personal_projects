@@ -108,10 +108,36 @@ Use Attribute Selectors to Style Elements:
 Understand Absolute versus Relative Units:
 padding: 1.5em
 
+Style the HTML Body Element:
+body {
+  background-color: black;
+}
 
+Overide all stlyes: 
+!important
+Overide order is !important> Inline> id attributes>subsequent css>
 
+Can use hexadecimal and RGB for color style
+
+CSS Variables:
+element{
+  --main-bg-color:brown;
+}
+
+property: var(--variablename, fallback);
+
+Inherit CSS Variables:
+:root is a pseudo-class selector that matches the root element of the document, usually the html element. 
+By creating your variables in :root, they will be available globally and can be accessed from any other selector in the style sheet.
   
-
+Use a media query to change a variable:
+For instance, when your screen is smaller or larger than your media query break point, you can change the value of a variable, and it will apply its style wherever it is used.
+@media (max-width: 350px) {
+    :root {
+      --penguin-size: 200px;
+      --penguin-skin: black;
+    }
+  }
 
  
 
