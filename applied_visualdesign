@@ -1,0 +1,17 @@
+Create Visual Balance Using the text-align Property:
+  h4 {
+    text-align: center...justify...right... left;
+  }
+  
+Adjust the Width of an Element Using the width Property:
+  img {
+  width: 220px;
+}
+
+Adjust the Height of an Element Using the height Property:
+  img {
+  height: 20px;
+}
+
+Use the strong Tag to Make Text Bold:
+  <strong>Stanford University</strong>
